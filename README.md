@@ -1,27 +1,53 @@
-# ContactsManagement
+Overview
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+The Contacts UI is a frontend application built with Angular that interacts with the Contacts API to provide a user interface for managing contact information.
 
-## Development server
+Setup Instructions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone the Repository:
 
-## Code scaffolding
+   Open your terminal and run the following command to clone the repository:
+   git clone https://github.com/yourusername/contacts-ui.git
+   Then navigate into the project directory:
+   cd contacts-ui
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. Install Dependencies:
+   Install the necessary dependencies by running:
+   npm install
 
-## Build
+3. Run the Application:
+   Start the Angular development server with:
+   ng serve
+   The application will be available at http://localhost:4200.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+How to Run the Application
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Ensure Dependencies are Installed:
+   Make sure the necessary dependencies are installed by running:
+   npm install
 
-## Running end-to-end tests
+2. Start the Frontend Application:
+   Run the Angular development server using:
+   ng serve
+   You can view the application at http://localhost:4200.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+Design Decisions and Application Structure
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Technology Stack:
+  - Angular: Chosen for its comprehensive framework for building single-page applications (SPAs) with a rich feature set.
+  - Angular CLI: Used for development, build, and deployment processes.
+
+- Application Structure:
+  - Components: Reusable Angular components that encapsulate different parts of the UI.
+  - Modules:  Angular modules that group related components, services, and other code for better organization.
+  - Services: Contains logic for interacting with the Contacts API, typically using Angular's HttpClient.
+  - Routing: Angular Router is used for navigating between different views of the application.
+
+- Design Decisions:
+  - Component-Based Architecture: Encourages reuse and separation of concerns, which helps in managing and scaling the application.
+  - Reactive Forms: Used for handling form inputs and validations in a reactive manner.
+  - Modular Design: Promotes a clean and organized structure by breaking the application into modules and components.
+
+
